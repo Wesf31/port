@@ -1,4 +1,6 @@
 create table customer(
-    customerId integer not null references id(id),
-    username text not null references customer(email)
+    customerId integer primary key not null references id(id),
+    username text not null references customer(email),
+    loginpassword text not null references password(password),
+    balance integer not null references accountBalance(balance)
 )
