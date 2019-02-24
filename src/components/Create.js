@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Dropzone from 'react-dropzone'
 
-const CreateImage = ({
+const Create = ({
 
 }) => {
     return (
