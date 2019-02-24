@@ -7,7 +7,7 @@ export const Home = Loadable({
     loading: Loader,
   })
 
-  export const CreateImage = Loadable({
+  export const Create = Loadable({
     loader: () => import('../components/Create'),
     loading: Loader,
   })
