@@ -1,9 +1,7 @@
 import React from 'react'
 import Dropzone from 'react-dropzone'
 
-const Create = ({
-
-}) => {
+function Create () {
     return (
         <div>
             <p>sup sup</p>
