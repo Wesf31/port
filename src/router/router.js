@@ -4,7 +4,7 @@ import { Home, Create } from '../Loadable/Loadable'
 
 export default (
     <Switch>
-        <Route exact path="/" component={Create} />
-        <Route path ="/home" component={Home}/>
+        <Route exact path="/" component={Home} />
+        <Route path ="/Create" component={Create}/>
     </Switch>
 )
