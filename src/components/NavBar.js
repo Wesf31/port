@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
@@ -32,9 +33,9 @@ class NavBar extends React.Component {
         onChange={this.handleChange}
         showLabels
         className={classes.root}>
-        <BottomNavigationAction label="Home" icon={<RestoreIcon />} />
+        <BottomNavigationAction component={Link} to="/" label="Home" icon={<RestoreIcon />} />
         <BottomNavigationAction label="Products" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Create" icon={<LocationOnIcon />} />
+        <BottomNavigationAction component={Link} to="/create" label="Create" icon={<LocationOnIcon />} />
       </BottomNavigation>
     );
   }
