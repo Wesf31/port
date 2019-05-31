@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import { connect } from 'react-redux'
+
 import Dropzone from 'react-dropzone';
 import request from 'superagent'
 import withStyles from 'material-ui/styles/withStyles'
@@ -11,7 +11,6 @@ import Dialog, {
   DialogContent,
   DialogTitle,
 } from 'material-ui/Dialog';
-import { setProfileData } from './../ducks/reducers/resultsReducer'
 
 const CLOUDINARY_UPLOAD_PRESET = 'k4zdtfen'
 const CLOUDINARY_UPLOAD_URL = 'https://api.cloudinary.com/v1_1/dhowdfbmx/upload'
@@ -146,4 +145,4 @@ const mapStateToProps = state => ({
 const styles = {
 
 }
-export default connect(mapStateToProps, { setProfileData })(withStyles(styles)(CreateProfile))
+export default (withStyles(styles)(CreateProfile))
