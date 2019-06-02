@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-
 import Dropzone from 'react-dropzone';
 import request from 'superagent'
 import withStyles from 'material-ui/styles/withStyles'
