@@ -14,7 +14,7 @@ import Dialog, {
 const CLOUDINARY_UPLOAD_PRESET = 'k4zdtfen'
 const CLOUDINARY_UPLOAD_URL = 'https://api.cloudinary.com/v1_1/dhowdfbmx/upload'
 
-class CreateProfile extends Component {
+class Create extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -138,10 +138,4 @@ class CreateProfile extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-
-})
-const styles = {
-
-}
-export default (withStyles(styles)(CreateProfile))
+export default (Create)
