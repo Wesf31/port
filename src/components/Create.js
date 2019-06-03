@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import Dropzone from 'react-dropzone';
 import request from 'superagent'
-import withStyles from 'material-ui/styles/withStyles'
+import { withStyles } from '@material-ui/styles';
 import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
 import Dialog, {
