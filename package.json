@@ -23,6 +23,7 @@
     "react-loadable": "^5.5.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
+    "superagent": "^5.0.5",
     "typescript": "^3.5.1"
   },
   "scripts": {
