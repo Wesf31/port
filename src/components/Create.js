@@ -3,13 +3,13 @@ import axios from 'axios'
 import Dropzone from 'react-dropzone';
 import request from 'superagent'
 import { withStyles } from '@material-ui/styles';
-import Button from 'material-ui/Button';
-import TextField from 'material-ui/TextField';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
 import Dialog, {
   DialogActions,
   DialogContent,
   DialogTitle,
-} from 'material-ui/Dialog';
+} from '@material-ui/core/Dialog';
 
 const CLOUDINARY_UPLOAD_PRESET = 'k4zdtfen'
 const CLOUDINARY_UPLOAD_URL = 'https://api.cloudinary.com/v1_1/dhowdfbmx/upload'
