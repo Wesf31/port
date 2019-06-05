@@ -34,7 +34,7 @@ class NavBar extends React.Component {
         showLabels
         className={classes.root}>
         <BottomNavigationAction component={Link} to="/" label="Home" icon={<RestoreIcon/>} />
-        <BottomNavigationAction label="Products" icon={<FavoriteIcon/>} />
+        <BottomNavigationAction component={Link} to="/products" label="Products" icon={<FavoriteIcon/>} />
         <BottomNavigationAction component={Link} to="/create" label="Create" icon={<LocationOnIcon/>} />
       </BottomNavigation>
     );

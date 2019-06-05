@@ -11,3 +11,8 @@ export const Home = Loadable({
     loader: () => import('../components/Create'),
     loading: Loader,
   })
+
+  export const Products = Loadable({
+    loader: () => import('../components/Products'),
+    loading: Loader,
+  })
