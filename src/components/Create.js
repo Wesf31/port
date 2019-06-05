@@ -76,7 +76,6 @@ class Create extends Component {
           uploadedFileCloudinayrUrl: '',
           name: '',
         })
-        this.props.setProfileData(res.data)
       })
   }
 
