@@ -29,3 +29,13 @@ export default function reducer(state = initialState, action) {
       return state
   }
 }
+
+export default function reducer(state = initialState, action) {
+  const { payload, type } = action
+  switch (type) {
+    case GET_TABLE_DATA:
+      return { ...state, profileData: payload, profileDataLoaded: true }
+    default:
+      return state
+  }
+}
