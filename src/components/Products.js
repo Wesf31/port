@@ -12,6 +12,7 @@ function Products() {
 
   function handleClickOpen() {
     setOpen(true);
+    return 'true'
   }
 
   function handleClose() {
